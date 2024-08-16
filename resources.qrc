@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/Assets">
+        <file alias="face.png">Gui/Assets/face.png</file>
+        <file alias="jaw.png">Gui/Assets/jaw.png</file>
+        <file alias="skull.png">Gui/Assets/skull.png</file>
+        <file alias="smoothing.png">Gui/Assets/smoothing.png</file>
+        <file alias="arrow.png">Gui/Assets/arrow.png</file>
+    </qresource>
+    <qresource prefix="/Gui">
+        <file alias="Main.qml">Gui/Ui/Main.qml</file>
+        <file alias="MenuBar.qml">Gui/Ui/MenuBar.qml</file>
+        <file alias="TitleBar.qml">Gui/Ui/TitleBar.qml</file>
+        <file alias="ToolBar.qml">Gui/Ui/ToolBar.qml</file>
+    </qresource>
+    <qresource prefix="/Gui/Controls">
+        <file alias="DropDownMenu.qml">Gui/Ui/Controls/DropDownMenu.qml</file>
+        <file alias="ToolButton.qml">Gui/Ui/Controls/ToolButton.qml</file>
+        <file alias="Slider.qml">Gui/Ui/Controls/Slider.qml</file>
+        <file alias="VoxelToolButton.qml">Gui/Ui/Controls/VoxelToolButton.qml</file>
+    </qresource>
+</RCC>

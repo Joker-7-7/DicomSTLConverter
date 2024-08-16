@@ -201,6 +201,10 @@ void SceneVtkData::CreateRepresentations() noexcept {
 
 void SceneVtkData::ConvertToSTL() {
     auto mapper = vtkVolumeMapper::SafeDownCast(_volume->GetMapper());
+    if (mapper == nullptr)
+    {
+        return;
+    }
     vtkSmartPointer<vtkImageData> imageData = vtkImageData::SafeDownCast(mapper->GetInput());
     vtkSmartPointer<vtkPolyData> polyData = ExtractSurface(imageData, viewSettings.lLevel);
     vtkNew<vtkSTLWriter> stlWriter;

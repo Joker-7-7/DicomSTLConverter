@@ -1,4 +1,4 @@
-This little program converts DICOM file to STL model.
+This little program converts DICOM file to STL model using VTK framework.
 
 Below is an example of conversion.
 

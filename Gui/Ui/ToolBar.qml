@@ -48,7 +48,7 @@ Item {
                 Layout.alignment: Qt.AlignVCenter
                 Layout.preferredWidth: 34
                 Layout.preferredHeight: 34
-                iconSource: "qrc:/Assets/smoothing.png"
+                iconSource: "qrc:/Assets/convert.png"
                 action: function() { 
                     progressBar.running = true;
                     sceneItem.OnConvertToSTL();

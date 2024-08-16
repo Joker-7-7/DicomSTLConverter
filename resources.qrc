@@ -3,7 +3,7 @@
         <file alias="face.png">Gui/Assets/face.png</file>
         <file alias="jaw.png">Gui/Assets/jaw.png</file>
         <file alias="skull.png">Gui/Assets/skull.png</file>
-        <file alias="smoothing.png">Gui/Assets/smoothing.png</file>
+        <file alias="convert.png">Gui/Assets/convert.png</file>
         <file alias="arrow.png">Gui/Assets/arrow.png</file>
     </qresource>
     <qresource prefix="/Gui">
